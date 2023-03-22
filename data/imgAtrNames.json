@@ -1,0 +1,9 @@
+{
+    "Reimu": [
+        "moveRB","moveRF","moveF","moveLF","moveLB","moveB",
+        "flyRB","flyRF","flyF","flyLF","flyLB","flyB"
+    ],
+    "BackGrounds": [
+        "Shrine"
+    ]
+}

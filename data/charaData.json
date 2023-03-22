@@ -1,0 +1,63 @@
+{
+    "stateSuffix":{
+        "way": {
+            "unit": "deg",
+            "range": {
+                "LF": [155, -125],
+                "LB": [-135, -65],
+                "B": [-75, -15],
+                "RB": [-25, 45],
+                "RF": [35, 115],
+                "F": [105, 165]
+            }
+        }
+    },
+    
+    "chara":{
+        "Reimu":{
+            "state":{
+                "move":{
+                    "useSuffix": {
+                        "kind": "way",
+                        "var": ["vel", "radXY"]
+                    },
+                    "transition": {
+                        "fly": {
+                            "var": ["pos", "z"],
+                            "unit": null,
+                            "range": [1, null],
+                            "func": "jumping"
+                        } 
+                    }
+                },
+
+                "fly":{
+                    "useSuffix": {
+                        "kind": "way",
+                        "var": ["vel", "radXY"]
+                    },
+                    "transition": {
+                        "move": {
+                            "var": ["pos", "z"],
+                            "unit": null,
+                            "range": [null, 0],
+                            "func": "landing"
+                        } 
+                    }
+                }
+            },
+            "const": {
+                "imgName": "Reimu",
+                "moveMaxVelMagn": {
+                    "unit": null,
+                    "value": 96
+                },
+                "moveAccMagn": 256
+            }
+        }
+    },
+
+    "const": {
+        "mapLengthZ": 112
+    }
+}

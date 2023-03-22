@@ -1,0 +1,73 @@
+{ "frames": {
+   "flyRF 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   },
+   "flyRF 1.aseprite": {
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   },
+   "flyRF 2.aseprite": {
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   },
+   "flyRF 3.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   },
+   "flyRF 4.aseprite": {
+    "frame": { "x": 128, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   },
+   "flyRF 5.aseprite": {
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 32, "h": 32 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 84
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "flyRF.png",
+  "format": "I8",
+  "size": { "w": 192, "h": 32 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "left leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "right leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "skirt", "opacity": 255, "blendMode": "normal" },
+   { "name": "body", "opacity": 255, "blendMode": "normal" },
+   { "name": "scarf", "opacity": 255, "blendMode": "normal" },
+   { "name": "string", "opacity": 255, "blendMode": "normal" },
+   { "name": "head", "opacity": 255, "blendMode": "normal" },
+   { "name": "right arm", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
